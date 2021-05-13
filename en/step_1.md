@@ -1,59 +1,29 @@
-## Introduction
+The blocks inside an `if...then`{:class="block3control"} block will only run if the **condition** in the hexagonal input is **true**.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+```blocks3
+if <> then
+end
+```
 
-### What you will make
+There are lots of hexagonal shaped **condition** blocks in Scratch, including blocks in the `Sensing`{:class="block3sensing"} and `Operators`{:class="block3operators"} blocks menus.
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+```blocks3
+<touching (mouse-pointer v) ?>
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+<touching color (#ff00d7) ?>
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+<[] = [50]>
+```
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+If you want to run different blocks when the **condition** is **false** then use an `if...then...else`{:class="block3control"} block instead:
 
-+ A computer or tablet capable of running Scratch 3
+```blocks3
+if <(money) > [9]> then
+hide
+change [money v] by [-10]
+else
+say [You don't have enough] for [2] seconds
+end
+```
 
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+You can build more complex checks by 'nesting' `if...then`{:class="block3control"} and `if...then...else`{:class="block3control"} blocks one inside the other.
