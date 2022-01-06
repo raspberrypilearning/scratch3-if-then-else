@@ -1,11 +1,11 @@
-The blocks inside an `if...then`{:class="block3control"} block will only run if the **condition** in the hexagonal input is **true**.
+Bydd y blociau o fewn bloc `os...yna`{:class="block3control"} dim ond yn rhedeg os yw'r **amod** yn y blwch mewnbwn hecsagon yn **cywir**.
 
 ```blocks3
 if <> then
 end
 ```
 
-There are lots of hexagonal shaped **condition** blocks in Scratch, including blocks in the `Sensing`{:class="block3sensing"} and `Operators`{:class="block3operators"} blocks menus.
+Mae llawer o flociau **amod** siâp hecsagon yn Scratch, gan gynnwys blociau yn y dewislenni blociau `Synhwyro`{:class="block3sensing"} a `Gweithredwyr`{:class="block3operators"}.
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -15,7 +15,7 @@ There are lots of hexagonal shaped **condition** blocks in Scratch, including bl
 <[] = [50]>
 ```
 
-If you want to run different blocks when the **condition** is **false** then use an `if...then...else`{:class="block3control"} block instead:
+Os wyt ti am redeg blociau gwahanol pan fydd yr **amod** yn **anghywir** yna defnyddia'r bloc `os...yna...fel arall`{:class="block3control"} yn lle hynny:
 
 ```blocks3
 if <(money) > [9]> then
@@ -26,4 +26,4 @@ say [You don't have enough] for [2] seconds
 end
 ```
 
-You can build more complex checks by 'nesting' `if...then`{:class="block3control"} and `if...then...else`{:class="block3control"} blocks one inside the other.
+Galli di lunio profion mwy cymhleth drwy 'nythu' blociau `os...yna`{:class="block3control"} ac `os...yna...fel arall`{:class="block3control"} o fewn ei gilydd.
