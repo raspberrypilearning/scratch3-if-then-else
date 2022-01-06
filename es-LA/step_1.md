@@ -1,11 +1,11 @@
-The blocks inside an `if...then`{:class="block3control"} block will only run if the **condition** in the hexagonal input is **true**.
+Los bloques dentro de un bloque `si... entonces`{:class="block3control"} solo se ejecutarán si la **condición** en la entrada hexagonal es **verdadera**.
 
 ```blocks3
 if <> then
 end
 ```
 
-There are lots of hexagonal shaped **condition** blocks in Scratch, including blocks in the `Sensing`{:class="block3sensing"} and `Operators`{:class="block3operators"} blocks menus.
+Hay muchos bloques de **condición** de forma hexagonal en Scratch, incluyendo bloques en los Menús de bloques `Sensores`{:class="block3sensing"} y `Operadores`{: class = "block3operators"}.
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -15,7 +15,7 @@ There are lots of hexagonal shaped **condition** blocks in Scratch, including bl
 <[] = [50]>
 ```
 
-If you want to run different blocks when the **condition** is **false** then use an `if...then...else`{:class="block3control"} block instead:
+Si lo que quieres es ejecutar diferentes bloques cuando la **condición** es **falsa**, utiliza en su lugar un bloque `si...entonces...si no`{:class="block3control"}:
 
 ```blocks3
 if <(money) > [9]> then
@@ -26,4 +26,4 @@ say [You don't have enough] for [2] seconds
 end
 ```
 
-You can build more complex checks by 'nesting' `if...then`{:class="block3control"} and `if...then...else`{:class="block3control"} blocks one inside the other.
+Puedes crear comprobaciones más complejas 'anidando' bloques `si...entonces`{:class="block3control"} y `si...entonces...si no`{:class="block3control"} uno dentro del otro.
