@@ -18,11 +18,11 @@ Er zijn veel zeshoekige **voorwaarde** blokken in Scratch, inclusief blokken in 
 Als je verschillende blokken wilt uitvoeren wanneer de **voorwaarde** **niet waar** is, gebruik dan in plaats daarvan een `als...dan...anders`{:class="block3control"} blok:
 
 ```blocks3
-if <(money) > [9]> then
+if <(geld) > [9]> then
 hide
-change [money v] by [-10]
+change [geld v] by [-10]
 else
-say [You don't have enough] for [2] seconds
+say [Je hebt niet genoeg] for [2] seconds
 end
 ```
 
