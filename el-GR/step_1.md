@@ -1,11 +1,11 @@
-The blocks inside an `if...then`{:class="block3control"} block will only run if the **condition** in the hexagonal input is **true**.
+Τα μπλοκ μέσα σε ένα μπλοκ `εάν...τότε`{:class="block3control"} θα εκτελεστούν μόνο εάν η **συνθήκη** στην εξαγωνική είσοδο είναι **αληθής**.
 
 ```blocks3
 if <> then
 end
 ```
 
-There are lots of hexagonal shaped **condition** blocks in Scratch, including blocks in the `Sensing`{:class="block3sensing"} and `Operators`{:class="block3operators"} blocks menus.
+Υπάρχουν πολλά μπλοκ με σχήμα εξαγώνου για **συνθήκες** στο Scratch, συμπεριλαμβανομένων μπλοκ στα μενού `Αισθητήρες`{:class="block3sensing"} και `Τελεστές`{:class="block3operators"}.
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -15,7 +15,7 @@ There are lots of hexagonal shaped **condition** blocks in Scratch, including bl
 <[] = [50]>
 ```
 
-If you want to run different blocks when the **condition** is **false** then use an `if...then...else`{:class="block3control"} block instead:
+Αν θέλεις να τρέχουν διαφορετικά μπλοκ εντολών όταν η **συνθήκη ** είναι **ψευδής**, χρησιμοποίησε ένα μπλοκ `εάν... τότε... αλλιώς`{:class="block3control"}:
 
 ```blocks3
 if <(money) > [9]> then
@@ -26,4 +26,4 @@ say [You don't have enough] for [2] seconds
 end
 ```
 
-You can build more complex checks by 'nesting' `if...then`{:class="block3control"} and `if...then...else`{:class="block3control"} blocks one inside the other.
+Μπορείς να δημιουργήσεις πιο σύνθετους ελέγχους κάνοντας «ενθέσεις (nesting)» με μπλοκ `εάν...τότε`{:class="block3control"} και `εάν...τότε...αλλιώς`{:class="block3control"} το ένα μέσα στο άλλο.
