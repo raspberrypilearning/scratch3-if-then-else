@@ -1,11 +1,11 @@
-The blocks inside an `if...then`{:class="block3control"} block will only run if the **condition** in the hexagonal input is **true**.
+Блоки, що знаходяться всередині блоків `якщо...то`{:class="block3control"} будуть працювати тільки в тому випадку, якщо **умова** у шестигранному вході дорівнює **істині**.
 
 ```blocks3
 if <> then
 end
 ```
 
-There are lots of hexagonal shaped **condition** blocks in Scratch, including blocks in the `Sensing`{:class="block3sensing"} and `Operators`{:class="block3operators"} blocks menus.
+У Scratch є багато блоків з шестикутними формами **condition**, включаючи блоки з меню блоків `Датчики`{:class="block3sensing"} та `Оператори`{:class="block3operators"}.
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -15,7 +15,7 @@ There are lots of hexagonal shaped **condition** blocks in Scratch, including bl
 <[] = [50]>
 ```
 
-If you want to run different blocks when the **condition** is **false** then use an `if...then...else`{:class="block3control"} block instead:
+Якщо ти хочеш запускати різні блоки, коли **умова** дорівнює значенню **хибність**, тоді замість цього використовуй блок `якщо...то...інакше`{:class="block3control"}:
 
 ```blocks3
 if <(money) > [9]> then
@@ -26,4 +26,4 @@ say [You don't have enough] for [2] seconds
 end
 ```
 
-You can build more complex checks by 'nesting' `if...then`{:class="block3control"} and `if...then...else`{:class="block3control"} blocks one inside the other.
+Ти можеш побудувати більш складні перевірки за допомогою 'вкладення' блоків`якщо...то`{:class="block3control"} та `якщо...то...інакше`{:class="block3control"} один всередині іншого.
