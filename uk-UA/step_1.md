@@ -5,7 +5,7 @@ if <> then
 end
 ```
 
-У Scratch є багато блоків з шестикутними формами **condition**, включаючи блоки з меню блоків `Датчики`{:class="block3sensing"} та `Оператори`{:class="block3operators"}.
+У Scratch є багато блоків з шестикутними формами **умова**, включаючи блоки з меню блоків `Датчики`{:class="block3sensing"} та `Оператори`{:class="block3operators"}.
 
 ```blocks3
 <touching (mouse-pointer v) ?>
