@@ -5,7 +5,7 @@ if <> then
 end
 ```
 
-Il y a beaucoup de **condition** de forme hexagonale dans Scratch, y compris des blocs dans les menu blocs` Capteurs`{:class="block3sensing"} et `Opérateurs`{:class="block3operators"}.
+Il y a beaucoup de blocs **condition** de forme hexagonale dans Scratch, y compris des blocs dans les menu blocs `Capteurs`{:class="block3sensing"} et `Opérateurs`{:class="block3operators"}.
 
 ```blocks3
 <touching (mouse-pointer v) ?>
