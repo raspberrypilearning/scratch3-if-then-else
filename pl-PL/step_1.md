@@ -1,4 +1,4 @@
-Bloki wewnątrz bloku `jeżeli...to`{:class="block3control"} będą działać tylko wtedy, gdy **warunek** na wejściu sześciokątnym ma wartość **true**.
+Bloki wewnątrz bloku `jeżeli...to`{:class="block3control"} będą działać tylko wtedy, gdy **warunek** na wejściu sześciokątnym ma wartość **prawda**.
 
 ```blocks3
 if <> then
