@@ -1,4 +1,4 @@
-The blocks inside an `if...then`{:class="block3control"} block will only run if the **condition** in the hexagonal input is **true**.
+Bloky uvnitř `když...tak`{:class="block3control"} bloku poběží pouze v případě, že **podmínka ** v šestiúhelníkovém vstupu je **pravdivá**.
 
 ```blocks3
 if <> then
@@ -15,7 +15,7 @@ There are lots of hexagonal shaped **condition** blocks in Scratch, including bl
 <[] = [50]>
 ```
 
-If you want to run different blocks when the **condition** is **false** then use an `if...then...else`{:class="block3control"} block instead:
+Pokud chceš spustit různé bloky s **nepravdivou ** **podmínkou**, použij místo toho blok `když...tak...jinak`{:class="block3control"}:
 
 ```blocks3
 if <(money) > [9]> then
@@ -26,4 +26,4 @@ say [You don't have enough] for [2] seconds
 end
 ```
 
-You can build more complex checks by 'nesting' `if...then`{:class="block3control"} and `if...then...else`{:class="block3control"} blocks one inside the other.
+Složitější kontroly můžeš vytvořit 'vnořením' `když...tak`{:class="block3control"} a `když...tak...jinak`{:class="block3control"} bloků jeden do druhého.
