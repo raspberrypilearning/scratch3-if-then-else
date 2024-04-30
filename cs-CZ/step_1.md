@@ -5,7 +5,7 @@ if <> then
 end
 ```
 
-There are lots of hexagonal shaped **condition** blocks in Scratch, including blocks in the `Sensing`{:class="block3sensing"} and `Operators`{:class="block3operators"} blocks menus.
+Ve Scratchi je spousta bloků ve tvaru šestiúhelníku s **podmínkou**, včetně bloků v nabídkách bloků `Vnímání`{:class="block3sensing"} a `Operátory`{:class="block3operators"}.
 
 ```blocks3
 <touching (mouse-pointer v) ?>
