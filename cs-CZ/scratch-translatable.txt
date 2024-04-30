@@ -1,3 +1,4 @@
-money
+peníze
 
-You don't have enough
+
+Nemáš jich dost
